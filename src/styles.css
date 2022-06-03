@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  font-size: 14px;
+  border: 0;
+}
+
+button {
+  padding: 10px;
+  font-size: 14px;
+  border: 0;
+  border-left: 1px solid #2c3e50;
+  background: #2980b9;
+}
+
+button:disabled {
+  background: #1a5479;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
+  color: #ecf0f1;
+  font-weight: bold;
+}
+
+li {
+  padding: 10px;
+}
+
+.todolist {
+  padding: 10px;
+  background: #2c3e50;
+}
+
+.optimistic {
+  opacity: 0.6;
+  color: #7f8c8d;
+}
